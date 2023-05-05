@@ -176,7 +176,7 @@ cli.add_inbound(
         remark="TEST",
         port=12345,
         expiry_time=datetime.now()+timedelta(days=30), # 30 days
-        total_traffic=100*types.GIGABYTE, # 10GiB
+        total_traffic=100*types.GIGABYTE, # 100GiB
         transmission=protocols.WSTransmission(),
         tls=protocols.XTLS(),
         clients=[protocols.ProtocolClient(email="awolverp@gmail.com")],
