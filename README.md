@@ -103,7 +103,7 @@ cli.install_new_xray_service("6.0.0")
 Updates settings.
 
 *Recommend to use `get_settings()` and use `Settings` type to update settings.
-With this function may loss data.
+
 
 ```python
 setting = cli.get_settings()
