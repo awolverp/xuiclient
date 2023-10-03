@@ -17,7 +17,7 @@ setup(
     author="awolverp",
     author_email="awolverp@gmail.com",
     url="https://github.com/awolverp/xuiclient",
-    packages=['xuiclient', 'xuiclient.protocols'],
+    packages=['xuiclient'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: Implementation :: PyPy",
