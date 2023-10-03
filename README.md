@@ -167,6 +167,8 @@ cli.delete_inbound(1)
 #### add_inbound
 Adds new inbound and returns id of that.
 
+> ⚠️ **Always try to set all parameters of protocols** to prevent x-ui panels errors.
+
 ```python
 from xuiclient import protocols, types
 from datetime import datetime, timedelta
