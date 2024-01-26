@@ -1,7 +1,8 @@
 # XUIClient
 A rich-feature and easy-to-use Python library to control your XUI-Panel.
 
-> If you have ideas, bugs, ..., please issues for us
+> [!WARNING]
+> This package is outdated and does not support the new updates of XUI panels and XRay cores. Maybe some APIs have been changed.
 
 **features**:
 - Very fast
@@ -15,11 +16,6 @@ A rich-feature and easy-to-use Python library to control your XUI-Panel.
 - [Usage](#usage)
     - [Methods](#methods)
     - [How to get protocols link](#how-to-get-protocols-link)
-
-## Install
-```bash
-pip3 install -U xuiclient
-```
 
 ### Simple example
 ```python
